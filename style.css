@@ -190,6 +190,7 @@
 }
 
 .family {
+    width: 100%;
     padding-bottom: 135px;
     text-align: center;
 }
@@ -401,7 +402,7 @@
 }
 
 .div77 input {
-    padding: 10px 150px;
+    padding: 10px 100px;
     border-color: #F2EFE6;
     border-radius: 30px;
 }
@@ -500,3 +501,130 @@
     
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header img {
+    max-width: 150px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .header,
+    .head,
+    .div1,
+    .div2,
+    .mid-word,
+    .last-word,
+    .cardes,
+    .btn-3,
+    .btn-77,
+    .the-last-btn {
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center;
+    }
+
+    .login {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .head-text h2 {
+        font-size: 28px;
+    }
+
+    .adds .row > div {
+        margin-bottom: 20px;
+    }
+
+    .cardes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .input {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div77 input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .div77 {
+        text-align: center;
+    }
+
+    .last-center {
+        margin-bottom: 15px;
+    }
+
+    .apps {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .father-div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .login {
+        gap: 15px;
+    }
+
+    .head-text h2 {
+        font-size: 32px;
+    }
+
+    .cardes {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cardes img {
+        max-width: 80%;
+    }
+}
