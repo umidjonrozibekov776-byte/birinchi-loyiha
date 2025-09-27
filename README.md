@@ -1,2 +1,0 @@
-# sass
-# ClearSKY-5
